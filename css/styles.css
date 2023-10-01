@@ -50,6 +50,7 @@ text-transform: uppercase;
       letter-spacing: 0.02em;
       color:var(#434455);
       text-decoration:none ;
+      
     }
     .list-link-address .link:hover{color: #404bbf}
     .link:focus { color: #404bbf;}
@@ -68,6 +69,7 @@ cursor: pointer;font-weight: 500;
       color: var(--IRIS, #4D5AE5);
       background-color:#F4F4FD ;
       font-family:inherit;font-size: 16px; letter-spacing: 0.04em;
+      cursor: pointer;
 
 }
 .filter-button:hover{
