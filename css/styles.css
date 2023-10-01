@@ -59,8 +59,8 @@ text-transform: uppercase;
     .list{list-style: none; }
     /* pszytisk */
     .filters-list{background-color: var(--color-main);
-font-family:inherit;
-cursor: pointer;font-weight: 500;
+      text-decoration: none;
+      
      
     }
 .filter-button{ font-weight: 500;
@@ -118,5 +118,7 @@ text-decoration: none;
 }
 
 .list{
-  text-decoration: none
+  text-decoration: none;
+  list-style: none ;
+
 }
