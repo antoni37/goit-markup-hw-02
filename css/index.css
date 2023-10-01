@@ -98,4 +98,5 @@ text-transform: capitalize;
 .text-footer{
   color: var(--CLOUD, #F4F4FD);
 }
-
+a{color:var(--IRIS, #4D5AE5);
+}
