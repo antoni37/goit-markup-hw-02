@@ -59,7 +59,7 @@ text-transform: uppercase;
     /* pszytisk */
     .filters-list{background-color: var(--color-main);
 font-family:inherit;
-cursor: pointer;
+cursor: pointer;font-weight: 500;
      
     }
 .filter-button{ font-weight: 500;
@@ -67,7 +67,7 @@ cursor: pointer;
       letter-spacing: 0.04em;
       color: var(--IRIS, #4D5AE5);
       background-color:#F4F4FD ;
-
+      font-family:inherit;font-size: 16px; letter-spacing: 0.04em;
 
 }
 .filter-button:hover{
