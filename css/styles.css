@@ -1,6 +1,6 @@
 body{ 
 font-family: "Roboto", sans-serif;
-color: #434455;
+color: #434455;color:#FFFFFF ;
 }
 :root {background-color:#FFFFFF;
 }
@@ -54,7 +54,7 @@ text-transform: uppercase;
     }
     .list-link-address .link:hover,
     .link:focus { color: #404bbf;}
-    
+
 .filter-button{
 background-color: var(--color-main);
 font-family:inherit;
