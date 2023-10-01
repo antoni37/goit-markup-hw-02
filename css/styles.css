@@ -4,12 +4,6 @@ font-family: "Roboto", sans-serif;
 .filters-list{
 color: var(--color-accent);
 }
-/* Portfolio*/
-.Portfolio{
-background: #FFF;
-width: 1440px;
-height: 2076px;
-}
 /* logo */
 .logo{
 color: var(--IRIS, #4D5AE5);
@@ -31,7 +25,7 @@ text-transform: uppercase;
 }
 /* nav */
 .social-links{
-color:black;
+color: var(--NAVY-BLUE, #2E2F42);
 }
 .social-links .link {
 color: black;
@@ -43,10 +37,10 @@ color:var(--IRIS, #4D5AE5);
 }
 
 .list-link-address{
-  color: var(--SLATE, #434455);
+  color: var(--Dark, #434455);
 }
 .link{
-  color: var(--SLATE, #434455);
+  color: var(--Dark, #434455);
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -57,24 +51,22 @@ letter-spacing: 0.32px;
 .link:focus{
 color:var(--IRIS, #4D5AE5);
 }
+.link:active{color:  var(--light, #F4F4FD);}
 .filter-button{
 background-color: var(--color-main);
 font-family:inherit;
 cursor: pointer;
 }
-.filter-button:hover,
-.filter-button:focus{
+.filter-button:hover
+{
 background-color: var(--OCEAN, #404BBF); 
-}
 
+}
+.filter-button:focus{background-color:  var(--light, #F4F4FD);
+    text-align: center;}
 .stails{ 
-background: var(--CLOUD, #F4F4FD);
+background: var(--light, #F4F4FD);
 display: inline-flex;
-}
-
-/* footer */
-.logo-fooer{
-  color: var(--CLOUD, #F4F4FD);
 }
 /* my text */
 .my-text{
