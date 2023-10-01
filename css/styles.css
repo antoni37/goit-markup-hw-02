@@ -58,9 +58,8 @@ text-transform: uppercase;
     }
     .list{list-style: none; }
     /* pszytisk */
-    .filters-list{background-color: var(--color-main);
-      text-decoration: none;
-      
+    .filters-list{ text-decoration: none;
+
      
     }
 .filter-button{ font-weight: 500;
@@ -84,7 +83,7 @@ background: var(--light, #F4F4FD);
 display: inline-flex;
 }
 /* my text */
-.list-iten{
+.list-iten{ list-style: none;
 
 }
 .my-text{
@@ -117,8 +116,3 @@ text-decoration: none;
   background-color: #2e2f42;
 }
 
-.list{
-  text-decoration: none;
-  list-style: none ;
-
-}
