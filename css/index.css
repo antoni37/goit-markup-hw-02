@@ -3,7 +3,9 @@ font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 }
-:root {background-color:#FFFFFF;
+:root {
+  background:var(--IRIS, #4D5AE5);
+  color: white;
 }
 .button{ 
 background-color:var(--color-main);
