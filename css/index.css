@@ -67,7 +67,11 @@ font-style: norma
 }
 .list-link-address .link:hover{ color: #404bbf;}
 .link:focus{ color: #404bbf;}
-
+a .link{text-decoration: none
+}
+.list{
+  list-style: none;
+}
 
 
 .my-text{
@@ -115,8 +119,4 @@ text-transform: capitalize;
 .text-footer{
   color: var(--CLOUD, #F4F4FD);
 }
-a{text-decoration: none
-}
-.list{
-  text-decoration: none
-}
+

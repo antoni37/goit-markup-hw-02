@@ -43,8 +43,6 @@ text-transform: uppercase;
   }
   .social-links .link:hover,
   .social-links .link:focus{color: #404bbf }
-  .social-links .link:active { 
-  color:var(--IRIS, #4D5AE5);}
   .address{
     font-style: norma
     }
@@ -58,14 +56,16 @@ text-transform: uppercase;
     }
     .list-link-address .link:hover,
     .link:focus { color: #404bbf;}
-
+    a .link{text-decoration: none;
+    }
+    .list{list-style: none; }
+    /* pszytisk */
 .filter-button{
 background-color: var(--color-main);
 font-family:inherit;
 cursor: pointer;
 }
-.filter-button:hover
-{
+.filter-button:hover{
 background-color: var(--OCEAN, #404BBF); 
 
 }
@@ -93,6 +93,7 @@ font-weight: 400;
 line-height:1.5 ;
 letter-spacing: 0.32px;
 }
+/* footer */
 .logo-footer{
   color: #f4f4fd;
 }
@@ -103,8 +104,6 @@ letter-spacing: 0.32px;
   background-color: #2e2f42;
 }
 
-a{text-decoration: none
-}
 .list{
   text-decoration: none
 }
