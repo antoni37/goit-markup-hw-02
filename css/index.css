@@ -1,7 +1,8 @@
 body{ 
 font-family: "Roboto", sans-serif;
 color: #434455;
-background-color:#FFFFFF ;
+}
+:root {background-color:#FFFFFF;
 }
 .button{ 
 background-color:var(--color-main);
@@ -94,3 +95,7 @@ text-transform: capitalize;
 .logo-footer{
   color: #f4f4fd;
 }
+.text-footer{
+  color: var(--CLOUD, #F4F4FD);
+}
+

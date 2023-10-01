@@ -1,5 +1,8 @@
 body{ 
 font-family: "Roboto", sans-serif;
+color: #434455;
+}
+:root {background-color:#FFFFFF;
 }
 .filters-list{
 color: var(--color-accent);
@@ -88,3 +91,13 @@ font-weight: 400;
 line-height:1.5 ;
 letter-spacing: 0.32px;
 }
+.logo-footer{
+  color: #f4f4fd;
+}
+.text-footer{
+  color: var(--CLOUD, #F4F4FD);
+}
+.footer{
+  background-color: #2e2f42;
+}
+
