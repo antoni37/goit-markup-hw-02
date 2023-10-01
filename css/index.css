@@ -24,7 +24,7 @@ font-weight: 800;
 }
 .logo-header{
 font-family: "Raleway", sans-serif;
-color: #f4f4fd;
+color: var(--NAVY-BLUE, #2E2F42);
 font-size: 18px;
 text-decoration: none;
 line-height:1.17 ;
@@ -90,4 +90,7 @@ text-transform: capitalize;
 }
 .footer{
   background-color: #2e2f42;
+}
+.logo-footer{
+  color: #f4f4fd;
 }
