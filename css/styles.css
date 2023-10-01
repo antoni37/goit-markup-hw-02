@@ -57,29 +57,41 @@ text-transform: uppercase;
     }
     .list{list-style: none; }
     /* pszytisk */
+    .filters-list{
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: var(--IRIS, #4D5AE5);
+      background-color:#F4F4FD ;
+
+    }
 .filter-button{
 background-color: var(--color-main);
 font-family:inherit;
 cursor: pointer;
 }
 .filter-button:hover{
-background-color: var(--OCEAN, #404BBF); 
+color: #FFFFFF;
+background-color: #404BBF;
 
 }
-.filter-button:focus{background-color:  var(--light, #F4F4FD);
-    text-align: center;}
+.filter-button:focus{ color: #FFFFFF;background-color: #404BBF
+}
 .stails{ 
 background: var(--light, #F4F4FD);
 display: inline-flex;
 }
 /* my text */
+.list-iten{
+
+}
 .my-text{
 color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.2;
-letter-spacing: 0.4px;
+letter-spacing: 0.02em;
 }
 
 .text{
@@ -88,8 +100,9 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height:1.5 ;
-letter-spacing: 0.32px;
-}
+letter-spacing: 0.02em;
+text-decoration: none;
+
 /* footer */
 .logo-footer{
   color: #f4f4fd;
