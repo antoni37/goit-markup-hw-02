@@ -145,12 +145,5 @@ ul{
 .img-cards-entry{
   background: var(--WHITE, #FFF);
 }
-.social-links-list{
-  color:#2e2f42;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 .logo a{text-decoration: none;
 }
