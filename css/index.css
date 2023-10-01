@@ -1,0 +1,29 @@
+body{ 
+    font-family: "Roboto", sans-serif;
+}
+    .filter-button{ background-color:var (--color-main);
+        font-family: inherit;
+        cursor: pointer;
+    }
+.filter-button :hover
+.filter-button :focus
+{ background-color:var (--color-exemple);
+}
+.logo{
+    color: var(--IRIS, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 800;
+line-height: 21px;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.logo-header{
+    color: var(--NAVY-BLUE, #2E2F42);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 800;
+line-height: 21px;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
