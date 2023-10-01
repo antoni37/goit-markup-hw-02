@@ -7,7 +7,10 @@ background-color:#FFFFFF ;
   background:var(--IRIS,#4D5AE5);
   color: white;
 }
-
+html{
+  background:var(--IRIS, #4D5AE5);
+  color: white;
+}
 /* logo */
 .logo{
 font-family: "Raleway", sans-serif;

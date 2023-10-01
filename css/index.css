@@ -7,6 +7,11 @@ background-color: #FFFFFF;
   background:var(--IRIS, #4D5AE5);
   color: white;
 }
+html{
+  background:var(--IRIS, #4D5AE5);
+  color: white;
+}
+
 .button{ 
 background-color:var(--color-main);
 font-family: inherit;
