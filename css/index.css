@@ -42,21 +42,20 @@ text-transform: uppercase;
 }
 .logo-header a{color: #000;text-decoration: none;}
 .social-links{
-  color: var(--NAVY-BLUE, #2E2F42);
+  color: var(--NAVY-BLUE, #434455);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.social-links .link:hover{color: #404bbf }
-.social-links .link:focus{color: #404bbf }
-.social-links .link:active { 
+.social-links:hover{color: #404bbf }
+.social-links:focus{color: #404bbf }
+.social-links :active { 
   color: var(--OCEAN, #404BBF);
 }
 .social-links a{ text-decoration: none;}
-.address{
-font-style: norma
+.address{ font-style: normal;
 }
 .list-link-address{
   font-weight: 500;
