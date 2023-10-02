@@ -84,9 +84,7 @@ background: var(--light, #F4F4FD);
 display: inline-flex;
 }
 /* my text */
-.list-iten{ list-style: none;
 
-}
 .my-text{
 color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
