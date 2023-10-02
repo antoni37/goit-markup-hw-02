@@ -79,10 +79,6 @@ background-color: #404BBF;
 }
 .filter-button:focus{ color: #FFFFFF;background-color: #404BBF
 }
-.stails{ 
-background: var(--light, #F4F4FD);
-display: inline-flex;
-}
 /* my text */
 
 .my-text{
