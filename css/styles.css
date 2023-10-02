@@ -29,11 +29,12 @@ font-weight: 800;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
-
-/* nav */
-.link{
+.logo-span.link{
   text-decoration: none ;
 }
+.list{list-style: none; }
+/* nav */
+
 .social-links{
   font-weight: 500;
   font-size: 16px;
@@ -57,7 +58,7 @@ text-transform: uppercase;
     }
     .list-link-address .link:hover{color: #404bbf}
     .link:focus { color: #404bbf;}
-    .list{list-style: none; }
+    
     /* pszytisk */
     .filters-list{ text-decoration: none;  
     }
