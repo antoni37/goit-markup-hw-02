@@ -29,7 +29,7 @@ font-weight: 800;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
-.logo-span.link{
+ .link{
   text-decoration: none ;
 }
 .list{list-style: none; }
