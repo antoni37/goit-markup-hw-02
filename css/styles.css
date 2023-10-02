@@ -63,8 +63,6 @@ font-weight: 500;
     .link:focus { color: #404bbf;}
     
     /* pszytisk */
-    .filters-list{ text-decoration: none;  
-    }
 .filter-button{ font-weight: 500;
       line-height: 1.5;
       letter-spacing: 0.04em;
