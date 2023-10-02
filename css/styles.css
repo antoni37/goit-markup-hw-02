@@ -7,14 +7,16 @@ background-color:#FFFFFF ;
 
 /* logo */
 .logo link{
-font-family: "Raleway", sans-serif;
-color: var(--IRIS, #4D5AE5);
-font-size: 18px;
+font-family: 'Raleway', sans-serif;
+color: var(--IRIS, #4d5ae5);
+font-size: 18px ;
 line-height: 1.17;
 letter-spacing: 0.54px;
 text-decoration: none;
 text-transform: uppercase;
-font-weight: 800;
+font-weight: 800 ;
+letter-spacing: 0.03em ;
+
 }
  .logo-span{
 font-family: "Raleway", sans-serif;
@@ -28,7 +30,6 @@ text-transform: uppercase;
 }
 /* nav */
 .link{
-  color: #2e2f42 ;
   text-decoration: none ;
 }
 .social-links{
