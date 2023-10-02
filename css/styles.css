@@ -104,10 +104,10 @@ font-size: 18px;
 line-height: 1.17 ;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
+color: #4d5ae5;text-decoration:none;
 }
 .logo-footer{
-  color: #f4f4fd;
+  color: #f4f4fd;text-decoration:none;
 }
 .text-footer{
   color: var(--CLOUD, #F4F4FD);
