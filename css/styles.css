@@ -72,6 +72,8 @@ font-weight: 500;
       cursor: pointer;
 
 }
+.stails{
+background: var(--CLOUD, #F4F4FD);}
 .filter-button:hover{
 color: #FFFFFF;
 background-color: #404BBF;
@@ -89,7 +91,6 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
-.list .link{list-style: none;}
 .text{
 color: var(--SLATE, #434455);
 font-size: 16px;
