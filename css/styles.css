@@ -3,26 +3,27 @@ font-family: "Roboto", sans-serif;
 color: #434455;
 background-color:#FFFFFF ;
 }
-html :root {--brand-color:#3f51b5;--size: ;}
+html :root {--brand-color:#3f51b5;}
  
 /* logo */
-.logo link{
-font-family: 'Raleway', sans-serif;
-color: var(--IRIS, #4d5ae5);
-font-size: 18px ;
+.logo-link{
+  color: var(--IRIS, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
 line-height: 1.17;
 letter-spacing: 0.54px;
-text-decoration: none;
 text-transform: uppercase;
 font-weight: 800 ;
 letter-spacing: 0.03em ;
 
 }
  .logo-span{
-font-family: "Raleway", sans-serif;
-color:#2e2f42;
-font-size: 18px;
-text-decoration: none;
+  color: var(--NAVY-BLUE, #2E2F42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 21px;
 line-height: 1.17;
 font-weight: 800;
 letter-spacing: 0.54px;
