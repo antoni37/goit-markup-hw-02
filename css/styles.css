@@ -3,8 +3,8 @@ font-family: "Roboto", sans-serif;
 color: #434455;
 background-color:#FFFFFF ;
 }
-:root {--brand-color:#3f51b5;--size: ;}
-
+html :root {--brand-color:#3f51b5;--size: ;}
+ 
 /* logo */
 .logo link{
 font-family: 'Raleway', sans-serif;
@@ -28,6 +28,7 @@ font-weight: 800;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
+
 /* nav */
 .link{
   text-decoration: none ;
@@ -44,7 +45,7 @@ text-transform: uppercase;
   .social-links .link:focus{color: #404bbf }
   .address{font-style: normal;
     }
-    .address-links list{
+    .address-links .list{
       font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
@@ -55,13 +56,9 @@ text-transform: uppercase;
     }
     .list-link-address .link:hover{color: #404bbf}
     .link:focus { color: #404bbf;}
-    a .link{text-decoration: none;
-    }
     .list{list-style: none; }
     /* pszytisk */
-    .filters-list{ text-decoration: none;
-
-     
+    .filters-list{ text-decoration: none;  
     }
 .filter-button{ font-weight: 500;
       line-height: 1.5;
