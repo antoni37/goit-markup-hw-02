@@ -115,6 +115,9 @@ color: #4d5ae5;
 .footer{
 background-color: #2e2f42;
 }
+.footer .link{text-decoration:none;}
+
+
 .logo .link{
   text-decoration: none;
 }
