@@ -124,4 +124,9 @@ color: #4d5ae5;
 .text-footer{
   color: var(--CLOUD, #F4F4FD);
 }
-
+.footer{
+background-color: #2e2f42;
+}
+.footer .link{
+  text-decoration: none;
+}
