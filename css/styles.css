@@ -30,7 +30,7 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 .logo-span .link,
-.logo-link .link{ text-decoration: none;}
+.logo-link .link{ text-decoration: none;list-style: none;  }
  .link{
   text-decoration: none ;
 }
