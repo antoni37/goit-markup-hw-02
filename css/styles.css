@@ -46,6 +46,7 @@ font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration:none ;
   }
+  .social-links .link{text-decoration: none;}
   .social-links .link:hover,
   .social-links .link:focus{color: #404bbf }
   .address{font-style: normal;
