@@ -16,7 +16,7 @@ text-transform: uppercase;
 font-weight: 800 ;
 letter-spacing: 0.03em ;
 font-family: 'Raleway', sans-serif
-
+/* nav */
 }
  .logo-span{
   color: var(--NAVY-BLUE, #2E2F42);
@@ -35,19 +35,8 @@ text-transform: uppercase;
   text-decoration: none ;
 }
 .list{list-style: none; }
-/* nav */
 
-.social-links{
-  color: var(--NAVY-BLUE, #2E2F42);
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration:none ;
-  }
-  .social-links .link:hover,
-  .social-links .link:focus{color: #404bbf }
+
   .address{font-style: normal;
     }
     .address-links .list{
@@ -104,7 +93,7 @@ font-size: 18px;
 line-height: 1.17 ;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;text-decoration:none;
+color: #4d5ae5;
 }
 .logo-footer{
   color: #f4f4fd;text-decoration:none;
