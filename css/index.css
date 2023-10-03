@@ -45,26 +45,28 @@ text-transform: uppercase;
 .address{ font-style: normal;
 }
 .list-link-address{
-  font-weight: 500;
+  color: var(--NAVY-BLUE, #2E2F42);
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color:v#2e2f42 ;
-  text-decoration:none ;
+  letter-spacing: 0.32px;
+
 }
-.list-link-address .link:hover{ color: #404bbf;}
+.list-link-address .link:hover,
 .link:focus{ color: #404bbf;}
- .link a{text-decoration: none
-}
+
 .list{
   list-style: none;
 }
 
-
+.link{color: var(--SLATE, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+ }
 .my-text{
 color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.4px;
@@ -73,8 +75,6 @@ letter-spacing: 0.4px;
 .text{
 color: var(--SLATE, #434455);
 font-size: 16px;
-font-style: normal;
-font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em
 }
@@ -82,10 +82,10 @@ letter-spacing: 0.02em
   color: var(--WHITE, #FFF);
   text-align: center;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  background: var(--NAVY-BLUE, #2E2F42);
 }
 .text-entry{
 color: var(--NAVY-BLUE, #2E2F42);
@@ -97,9 +97,7 @@ letter-spacing: 0.72px;
 text-transform: capitalize;
 text-align: center;
 }
-.footer{
-  background-color: #2e2f42;
-}
+
 /* footer */
 .logo-footer{
   color: #f4f4fd;
