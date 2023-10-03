@@ -78,14 +78,14 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em
 }
-.entry{
+.entry{background: var(--NAVY-BLUE, #2E2F42);
   color: var(--WHITE, #FFF);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  background: var(--NAVY-BLUE, #2E2F42);
+  ;
 }
 .text-entry{
 color: var(--NAVY-BLUE, #2E2F42);
