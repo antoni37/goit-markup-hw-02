@@ -4,10 +4,10 @@ color: #434455;
 background-color: #FFFFFF;
 }
 :root {
-  --blue: #1e90ff;
-  --white: #ffffff;}
-  html{--blue: #1e90ff;
-    --white: #ffffff;} 
+  color: #434455;
+  background-color: #FFFFFF;}
+  html{color: #434455;
+    background-color: #FFFFFF;;} 
 .button{ 
   background:var(--IRIS, #4D5AE5);
   color: var(--WHITE, #FFF);
