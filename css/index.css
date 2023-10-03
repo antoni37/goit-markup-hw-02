@@ -1,6 +1,5 @@
 body{ 
 font-family: "Roboto", sans-serif;
-color: #434455;
 background-color: #FFFFFF;
 }
 :root {--brand-color:#3f51b5;--size: ;}
@@ -40,10 +39,15 @@ font-weight: 800;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
-.logo-header a{color: #000;text-decoration: none;}
+.link-list{color: var(--NAVY-BLUE, #2E2F42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 
-.address{ font-style: normal;
 }
+.list-link:hover{color: var(--NAVY-BLUE, #2E2F42);}
+.list-link:focus{color: var(--OCEAN, #404BBF);}
 .list-link-address{
   color: var(--NAVY-BLUE, #2E2F42);
   font-size: 16px;
@@ -52,18 +56,16 @@ text-transform: uppercase;
   letter-spacing: 0.32px;
 
 }
-.list-link-address .link:hover,
-.link:focus{ color: #404bbf;}
+.list-link-address:hover{color: var(--SLATE, #434455);
+}
+.list-link-address:focus{ color: var(--OCEAN, #404BBF);}
+
 
 .list{
   list-style: none;
 }
 
-.link{color: var(--SLATE, #434455);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
- }
+.link{text-decoration: none;}
 .my-text{
 color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
@@ -76,13 +78,14 @@ letter-spacing: 0.4px;
 color: var(--SLATE, #434455);
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em
+letter-spacing: 0.02em;
+
 }
-.entry{background: var(--NAVY-BLUE, #2E2F42);
-  color: var(--WHITE, #FFF);
+.entry{color: var(--WHITE, #FFF);
+  background-color: #2e2f42;
   text-align: center;
   font-size: 56px;
-  font-weight: 700;
+  font-weight: 500 ;
   line-height: 1.07;
   letter-spacing: 1.12px;
   ;
@@ -126,6 +129,4 @@ ul{
 }
 .img-cards-entry{
   background: var(--WHITE, #FFF);
-}
-.logo a{text-decoration: none;
 }
