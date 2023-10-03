@@ -3,7 +3,10 @@ font-family: "Roboto", sans-serif;
 color: #434455;
 background-color:#FFFFFF ;
 }
-html :root {--brand-color:#3f51b5;}
+html {font-family:sans-serif;}
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;}
  
 /* logo */
 .logo-link{
@@ -34,7 +37,7 @@ text-transform: uppercase;
  .link{
   text-decoration: none ;
 }
-.list{list-style: none; }
+.list{ }
 
 
   .address{font-style: normal;
@@ -46,9 +49,10 @@ text-transform: uppercase;
       letter-spacing: 0.02em;
       color:var(#434455);
       text-decoration:none ;
+      list-style: none;
       
     }
-    .list-link-address .link:hover{color: #404bbf}
+    .list-link-address .link:hover{color: #404bbf;}
     .link:focus { color: #404bbf;}
     
     /* pszytisk */
