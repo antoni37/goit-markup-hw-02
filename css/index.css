@@ -129,9 +129,9 @@ ul{
   list-style-type: none;
 }
 .img-cards{
-  background-color: #F4F4FD
+  background-color: #F4F4FD;
 
 }
 .img-cards-entry{
-  background: var(--WHITE, #FFF);
+  background-color: #F4F4FD;
 }
