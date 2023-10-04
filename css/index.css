@@ -36,14 +36,13 @@ cursor: pointer;
    text-transform: uppercase;
    color: #4d5ae5;}
 .logo-header{
-font-family: "Raleway", sans-serif;
-color: var(--NAVY-BLUE, #2E2F42);
-font-size: 18px;
-text-decoration: none;
-line-height:1.17 ;
-font-weight: 800;
-letter-spacing: 0.54px;
-text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .list-link-address link{
