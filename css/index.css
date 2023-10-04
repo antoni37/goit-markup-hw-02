@@ -1,8 +1,16 @@
 body{ 
 font-family: "Roboto", sans-serif;
 color: #434455 ;background-color:#FFFFFF ;
-}
-:root {--brand-color:#3f51b5;--size: ;}
+font-weight: 400;}
+
+:root {
+  --brand-color-slate:#434455;
+  --brand-color-white:#FFFFFF;
+  --brand-color-iris: #4D5AE5;
+  --brand-color-navyblue:#2E2F42;
+  --brand-color-ocean:#404BBF;
+  --brand-color-CLOUD: #F4F4FD;
+  --brand-color-CORNFLOWER:#E7E9FC;}
 
 .button{ 
   background:var(--IRIS, #4D5AE5);
