@@ -122,7 +122,7 @@ ul{
   list-style-type: none;
 }
 .img-cards{
-  background: var(--CLOUD, #F4F4FD);
+  background-color:#2e2f42;
 
 }
 .img-cards-entry{
