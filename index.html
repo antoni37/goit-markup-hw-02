@@ -4,95 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style type="text/css">/*css*/</style>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-   <header>
-    <nav >
-     <a class="logo link">Web<span class="logo-header">Studio</span></a> 
-
-        <ul class="list">
-            <li ><a class="link" href="./index.html ">Studio</a></li>
-            <li ><a class="link" href="./portfolio.html">Portfolio</a></li>
-            <li ><a class="link" href="">Contacts </a> </li>
-        </ul>
-    </nav >
-    <address class="address">
-        <ul class="list-link-address link">
-         <li><a class="list" href="./index.html" >info@devstudio.com</a></li>
-         <li><a class="list" href="tel:+110001111111" >+11 (000) 111-11-11</a></li>
-    </ul> 
-    </address>
-   </header>
-   <main>
-    <!--Section 1-->
-       <section class="img-cards">
-        <h1 class="entry">Effective Solutions  <br>
-            for Your Business</h1>
-        <button class="button" type="button"> Order Service </button>
-    </section>
-        <!--Section 2-->
-    <section class="list" >
-
-        <h2 class="text-entry">section</h2>
-     <ul>
-        <li><h3  class="my-text">Strategy</h3>
-            <p class="text" >Our goal is to identify the business problem to walk away with the perfect and creative solution. </p>
-        </li>
-        <li>
-            <h3  class="my-text">Punctuality</h3>
-            <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-        </li>
-        <li>
-            <h3  class="my-text">Diligence</h3>
-            <p class="text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-        </li>
-        <li>
-            <h3>Technologies</h3>
-            <p class="text"> Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-        </li>
-    </ul>
-    </section>
-    <!--Section 3-->
-   <section>
-    <h2 class="text-entry"> What are we doing </h2>
-    <ul class="list">
-        <li ><img src="./images/ekran-monitora.jpg" width="360" alt="obrazek ekran monitora"> </li>
-        <li><img src="./images/komorka.jpg" width="360" alt="obrazek telefon komorkowy"> </li>
-        <li><img src="./images/Laptop-komorka.jpg" width="360" alt="obrazek Laptop i komorka"> </li>
-    </ul>
-   </section>
-    <!--Section 4-->
-   <section class="img-cards">
-    <h2  class="text-entry" >Our Team</h2>
-    <ul class="list">
-        <li class="img-cards-entry"><img  src="./images/TeamCard1.jpg" width="264"  alt="zdjęcia mężczyzna w niebieskiej koszuli z brodą Mark Guerrero">
-            <h3 class="my-text">Mark Guerrero</h3>
-            <p class="text" >Product Designer</p>
-        </li>
-        <li class="img-cards-entry"><img  src="./images/TeamCard2.jpg" width="264"  alt="zdjęcia mężczyzna w niebieskiej koszuli z uśmiechem na twarzy Tom Ford">
-            <h3 class="my-text">Tom Ford</h3>
-            <p class="text">Frontend Developer</p>
-        </li>
-        <li class="img-cards-entry"><img  src="./images/TeamCard3.jpg" width="264"  alt="zdjęcia długowłosa kobieta w różowym swetrze Camila Garcia">
-            <h3 class="my-text">Camila Garcia</h3>
-            <p class="text" >Marketing</p>
-        </li>
-        <li class="img-cards-entry"><img  src="./images/TeamCard4.jpg" width="264"  alt="zdjęciazarnowłosy mężczyzna z brodą w szarej koszulce  Daniel Wilson">
-            <h3 class="my-text">Daniel Wilson</h3>
-            <p class="text" >UI Designer</p>
-            
-        </li>
-    </ul>
-   </section>
-     </main>
-   <footer class="footer">
-    <a class="logo" href="./index.html">Web<span class="logo-footer">Studio</span></a>
-    <p class="text-footer" >Increase the flow of customers and sales for your business with digital marketing & growth solutions. </p>
-   </footer>  
+    <header>
+        <nav>
+            <a href="./index.html" class="logo-link link">Web<span class="span">Studio</span></a>
+            <ul class="list">
+                <li><a href="./index.html" class="first-link link">Studio</a></li>
+                <li><a href="./portfolio.html" class="first-link link">Portfolio</a></li>
+                <li><a href="" class="first-link link">Contacts</a></li>
+            </ul>
+        </nav>
+        <address class="address">
+             <ul class="list">
+                <li><a href="mailto:info@devstudio.com" class="item link">info@devstudio.com</a></li>
+                <li><a href="tel:+110001111111" class="item link">+11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
+    </header>
+    <main>
+        <section>
+            <h1>Buttons</h1>
+            <ul class="list">
+                <li><button type="button" class="filter-button">All</button></li>
+                <li><button type="button" class="filter-button">Web Site</button></li>
+                <li><button type="button" class="filter-button">App</button></li>
+                <li><button type="button" class="filter-button">Design</button></li>
+                <li><button type="button" class="filter-button">Marketing</button></li>
+            </ul>
+            <ul class="list">
+                <li> 
+                    <a class="link">
+                        <img src="./images/BankingApp.jpg" alt="purple banking app on screen" width="360" height="300">
+                        <h2 class="app">Banking App Interface Concept</h2>
+                        <p class="paragraph">App</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="link">
+                        <img src="./images/QR.jpg" alt="cashless payment by smartphone" width="360" height="300">
+                        <h2 class="app">Cashless Payment</h2>
+                        <p class="paragraph">Marketing</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="link">
+                        <img src="./images/MacAndSmartphone.jpg" alt="some app for computer and smartphone" width="360" height="300">
+                        <h2 class="app">Meditation App</h2>
+                        <p class="paragraph">App</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="link">
+                        <img src="./images/Taxi.jpg" alt="black taxi car" width="360" height="300">
+                        <h2 class="app">Taxi Service</h2>
+                        <p class="paragraph">Marketing</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="link">
+                        <img src="./images/Screen.jpg" alt="galaxy pictures" width="360" height="300">
+                        <h2 class="app">Screen Illustrations</h2>
+                        <p class="paragraph">Design</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="link">
+                        <img src="./images/Girl.jpg" alt="smiling girl in a orange jumper" width="360" height="300">
+                        <h2 class="app">Online Courses</h2>
+                        <p class="paragraph">Marketing</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="link">
+                        <img src="./images/Instagram.jpg" alt="pictures from Instagram" width="360" height="300">
+                        <h2 class="app">Instagram Stories Concept</h2>
+                        <p class="paragraph">Design</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="link">
+                        <img src="./images/Food.jpg" alt="part of body and food in a organic bag" width="360" height="300">
+                        <h2 class="app">Organic Food</h2>
+                        <p class="paragraph">Web Site</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="link">
+                        <img src="./images/Coffee.jpg" alt="a man preparing a cap of coffee" width="360" height="300">
+                        <h2 class="app">Fresh Coffee</h2>
+                        <p class="paragraph">Web Site</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="background">
+        <a href="./index.html" class="logo-link link">Web<span class="second-span">Studio</span></a>
+        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    </footer> 
 </body>
 </html>
