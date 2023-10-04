@@ -27,7 +27,7 @@ cursor: pointer;
 .button:focus{ 
   background: var(--OCEAN, #404BBF);}
 /* logo */
-.logo{
+.logo link{
 font-family: "Raleway", sans-serif;
 color: var(--IRIS, #4D5AE5);
 font-size: 18px;
