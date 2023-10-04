@@ -39,16 +39,7 @@ font-weight: 800;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
-.link-list{color: var(--NAVY-BLUE, #2E2F42);
-  
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
 
-}
-.link-list:hover{color: var(--NAVY-BLUE, #2E2F42);}
-.link-list:focus{color: var(--OCEAN, #404BBF);}
 .list-link-address{
   color: var(--SLATE, #434455);color: var(--OCEAN, #404BBF);
   font-size: 16px;
